@@ -1,3 +1,4 @@
 .container{
     background-color: rgb(246, 250, 253);
+    overflow-x: hidden;
 }

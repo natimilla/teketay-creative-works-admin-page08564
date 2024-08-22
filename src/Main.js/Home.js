@@ -196,7 +196,8 @@ function Home() {
         </div>
         {isLoading && <div>Loading...</div>}
         {additem && (
-          <form onSubmit={submitHandler} className={classes.form}>
+          <div>
+            <form onSubmit={submitHandler} className={classes.form}>
             <div className={classes.formContainer}>
               <div className={classes.label}>
                 <label>Name</label>
@@ -247,6 +248,8 @@ function Home() {
               </button>
             </div>
           </form>
+          </div>
+          
         )}
         <div>{isEmpty && <p>No result Found</p>} </div>
         <div className={classes.dummyContainer}>
@@ -254,7 +257,7 @@ function Home() {
           {loadedData.map((item) => (
             <div key={item.id} className={classes.listContainer}>
               <div>
-                <img src={item.image} className={classes.img} />
+                <img src={item.image} className={classes.img} alt='accessory-image' />
               </div>
               <div className={classes.Name}>Name: {item.Name}</div>
               <div className={classes.Name}>Price: {item.Price}</div>

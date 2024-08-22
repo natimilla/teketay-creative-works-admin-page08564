@@ -252,7 +252,7 @@ function WallArts() {
           {loadedData.map((item) => (
             <div key={item.id} className={classes.listContainer}>
               <div>
-                <img src={item.image} className={classes.img} />
+                <img src={item.image} className={classes.img} alt='wall_arts-image' />
               </div>
               <div className={classes.Name}>Name: {item.Name}</div>
               <div className={classes.Name}>Price: {item.Price}</div>

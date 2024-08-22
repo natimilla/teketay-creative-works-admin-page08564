@@ -101,6 +101,7 @@
     height: 50dvh;
   }
   .form{
+    width:70dvw;
     padding:2rem 3px;
   }
   .formContainer{
