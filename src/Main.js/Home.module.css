@@ -1,0 +1,106 @@
+.horizontalLineContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  .horizontalLine {
+    border: 2px solid #ff3c00;
+    width: 10dvw;
+  }
+  .buttonContainer{
+      display: flex;
+      justify-content: space-between;
+  }
+  .addButton:hover{
+      box-shadow: 0 0 5px black;
+  }
+  .addButton {
+    background-color: #ff3c00;
+    padding: 0.5rem 1.5rem;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+  }
+  .dummyContainer {
+    color: black;
+    margin:1rem;
+    z-index: 200;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .img {
+
+    width: 20dvw;
+    height: 20dvh;
+  }
+  .listContainer {
+    margin: 1rem;
+    box-shadow: 0 0 2px black;
+    padding-bottom: 1rem;
+    background-color:white;
+
+  }
+  .listContainer button{
+    padding:0.5rem 1.5rem;
+
+  }
+  .label{
+     display: flex;
+     justify-content: baseline;
+      font-weight: bold;
+      margin-right: 0.5rem;
+  }
+.formContainer{
+    width:30dvw;
+    display: flex;
+    margin-bottom: 1rem;
+}
+.input{
+    padding:0.2rem;
+}
+.form{
+    background-color: white;
+    border:1px solid black;
+    width:40dvw;
+   text-align: center;
+   margin:1rem auto;
+   padding:2rem 3rem;
+}
+.input:focus{
+    outline: none;
+}
+.submit{
+    padding:0.5rem 1.5rem;
+    font-weight: bold;
+    color: white;
+    background-color: #ff3c00;
+    border:none;
+    cursor:pointer
+}
+.submit:hover{
+    box-shadow: 0 0 5px black;
+}
+.Name{
+    margin:0.5rem 0;
+    font-weight: bold;
+}
+.container{
+  
+  margin-bottom: 2rem;
+}
+@media screen and (max-width:1000px) {
+  .img{
+    width:70dvw;
+    height: 50dvh;
+  }
+  .dummyContainer{
+     justify-content: center;
+    }
+}

@@ -1,23 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import Page1 from './Page/Page1';
+import { useSelector } from 'react-redux';
+import Overlay from './Main.js/overlay';
+import { Route } from 'react-router-dom';
+import Page2 from './Page/Page2';
+import SideBar from './SideBar/SideBar';
 
 function App() {
+  const loading=useSelector(state=>state.display.loading);
+    const submitted=useSelector(state=>state.display.submitted);
+    const error=useSelector(state=>state.display.error);
+    const display=loading||submitted||error
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SideBar/>
+      {display && <Overlay/>}
+     <Route path='/' exact><Page1/></Route>
+     <Route path='/message'><Page2/></Route> 
     </div>
   );
 }

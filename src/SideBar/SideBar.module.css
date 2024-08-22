@@ -1,0 +1,31 @@
+.container{
+    padding:1.5rem 1rem;
+    background-color: #ff3c00;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    width:44px;
+    height:44px;
+    border-radius: 50%;
+}
+.heading{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin-left: 0.5rem;
+}
+.coloring{
+    color:black
+}
+@media screen and (max-width:1000px) {
+    .heading{
+        font-size: 22px;
+    }
+}

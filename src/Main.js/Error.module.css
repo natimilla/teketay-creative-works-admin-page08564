@@ -1,0 +1,16 @@
+.heading{
+    font-weight: bold;
+    color:white;
+    margin:1rem
+}
+.button{
+    background-color: #ff3c00;
+    padding: 1rem 3rem;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button:hover{
+    box-shadow: 0 0 5px white;
+}
