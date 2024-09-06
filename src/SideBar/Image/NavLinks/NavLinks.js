@@ -54,6 +54,11 @@ function NavLinks() {
               Orders
             </NavLink>
           </div>
+          <div className={classes.linkContainer} onClick={linkHiderHandler}>
+            <NavLink to="/receipts" activeClassName={classes.active}>
+              Receipts
+            </NavLink>
+          </div>
         </div>
       )}
     </div>

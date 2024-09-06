@@ -52,12 +52,17 @@ function Orders() {
           const orders = data[key];
           let x = orders.length - 1;
           let y = orders.length;
+          let display=true
+          if(data[key][x].phone2.length===0){
+            display=false
+          }
           loaded_client_data.push({
             id: key,
             address: data[key][x].address,
             fullname: data[key][x].fullname,
             phone1: data[key][x].phone1,
             phone2: data[key][x].phone2,
+            display:display
           });
           for (let i = 0; i < x; i++) {
             loaded_items_data.push({
@@ -106,7 +111,7 @@ function Orders() {
           <div className={classes.listsContainer}>
             <div className={classes.label}>FullName : {client.fullname}</div>
             <div className={classes.label}>phone number 1: {client.phone1}</div>
-            <div className={classes.label}>Phone number 2: {client.phone2}</div>
+           {client.display &&  <div className={classes.label}>Phone number 2: {client.phone2}</div>}
             <div className={classes.label}>Address: {client.address}</div>
             <div className={classes.itemsContainer}>
               <table>

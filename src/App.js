@@ -7,6 +7,7 @@ import { Route } from 'react-router-dom';
 import Page2 from './Page/Page2';
 import SideBar from './SideBar/SideBar';
 import Page3 from './Page/Page3';
+import Page4 from './Page/Page4';
 
 function App() {
   const loading=useSelector(state=>state.display.loading);
@@ -20,6 +21,7 @@ function App() {
      <Route path='/' exact><Page1/></Route>
      <Route path='/message'><Page2/></Route> 
      <Route path='/orders'><Page3/></Route>
+     <Route path='/receipts'><Page4/></Route>
     </div>
   );
 }
