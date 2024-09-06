@@ -49,6 +49,11 @@ function NavLinks() {
               Messages
             </NavLink>
           </div>
+          <div className={classes.linkContainer} onClick={linkHiderHandler}>
+            <NavLink to="/orders" activeClassName={classes.active}>
+              Orders
+            </NavLink>
+          </div>
         </div>
       )}
     </div>

@@ -6,6 +6,7 @@ import Overlay from './Main.js/overlay';
 import { Route } from 'react-router-dom';
 import Page2 from './Page/Page2';
 import SideBar from './SideBar/SideBar';
+import Page3 from './Page/Page3';
 
 function App() {
   const loading=useSelector(state=>state.display.loading);
@@ -18,6 +19,7 @@ function App() {
       {display && <Overlay/>}
      <Route path='/' exact><Page1/></Route>
      <Route path='/message'><Page2/></Route> 
+     <Route path='/orders'><Page3/></Route>
     </div>
   );
 }

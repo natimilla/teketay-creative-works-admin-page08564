@@ -1,0 +1,71 @@
+.container{
+    padding:3rem;
+}
+.listsContainer{
+    padding:1rem;
+    background-color: rgb(226, 224, 224);
+    margin:1rem 0;
+}
+.label{
+    font-weight: bold;
+    text-align: left;
+    margin:1rem 0
+}
+.button{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    background-color:#ff3c00 ;
+    border:none;
+    padding:1rem 3rem;
+    font-weight: bold;
+    border-radius: 10px;
+    color:white;
+    cursor: pointer;
+}
+.button:hover{
+    box-shadow: 0 0 5px black;
+}
+.button:active{
+    transform: scale(0.99);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #969696;
+}
+
+th {
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    table {
+        display: block;
+        overflow-x: auto; /* Allow horizontal scrolling */
+        white-space: nowrap; /* Prevent wrapping */
+    }
+
+    th {
+       
+        top: 0; /* Keep the header at the top while scrolling */
+        background: #fff; /* Background for better visibility */
+        z-index: 1; /* Ensure the header is above the table rows */
+    }
+
+    tr {
+        display: table; /* Maintain the table row structure */
+        width: 100%; /* Ensure rows stretch full width */
+    }
+    td{
+        text-align: left;
+        border: 1px solid #ddd;
+    }
+
+    
+}
