@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/teketay-creative-works-admin-page08564/static/css/main.28e5cdc7.css",
-    "main.js": "/teketay-creative-works-admin-page08564/static/js/main.285eb260.js",
+    "main.css": "/teketay-creative-works-admin-page08564/static/css/main.c87eb972.css",
+    "main.js": "/teketay-creative-works-admin-page08564/static/js/main.df39ced1.js",
     "static/js/453.d1bd2c79.chunk.js": "/teketay-creative-works-admin-page08564/static/js/453.d1bd2c79.chunk.js",
     "static/media/2kY9IJ1bNouZVKDgViMIxvFcEg0.svg": "/teketay-creative-works-admin-page08564/static/media/2kY9IJ1bNouZVKDgViMIxvFcEg0.22d94642ce7cd98455793cdfc1c258ee.svg",
     "static/media/logo.svg": "/teketay-creative-works-admin-page08564/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
@@ -10,12 +10,12 @@
     "static/media/cancelIcon.svg": "/teketay-creative-works-admin-page08564/static/media/cancelIcon.b85a240b851e06f51ba031f3fa641d93.svg",
     "static/media/Spinner.svg": "/teketay-creative-works-admin-page08564/static/media/Spinner.3c712953b2b2060126edb083fe4aa64d.svg",
     "static/media/menuIcon.svg": "/teketay-creative-works-admin-page08564/static/media/menuIcon.94f156abf9857c6ac31f2469811684fb.svg",
-    "main.28e5cdc7.css.map": "/teketay-creative-works-admin-page08564/static/css/main.28e5cdc7.css.map",
-    "main.285eb260.js.map": "/teketay-creative-works-admin-page08564/static/js/main.285eb260.js.map",
+    "main.c87eb972.css.map": "/teketay-creative-works-admin-page08564/static/css/main.c87eb972.css.map",
+    "main.df39ced1.js.map": "/teketay-creative-works-admin-page08564/static/js/main.df39ced1.js.map",
     "453.d1bd2c79.chunk.js.map": "/teketay-creative-works-admin-page08564/static/js/453.d1bd2c79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.28e5cdc7.css",
-    "static/js/main.285eb260.js"
+    "static/css/main.c87eb972.css",
+    "static/js/main.df39ced1.js"
   ]
 }
